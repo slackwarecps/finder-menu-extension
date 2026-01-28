@@ -22,3 +22,12 @@ Como este projeto utiliza um caminho absoluto para driblar o Sandbox, **você pr
 ```swift
 // 🔴 ALTERE AQUI: Troque "fabioalvaropereira" pelo seu nome de usuário
 let myRealHome = URL(fileURLWithPath: "/Users/SEU_USUARIO_AQUI")
+```
+
+### COMPILE 
+```
+ $ xcodebuild -project FabaoFileMenu.xcodeproj \                                     ✹main 
+           -scheme FabaoFileMenu \
+           -configuration Debug \
+           clean build
+```
