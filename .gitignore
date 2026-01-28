@@ -1,0 +1,13 @@
+# Xcode
+.DS_Store
+*/build/
+*.os
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcuserdatad/
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xg
