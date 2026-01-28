@@ -1,27 +1,24 @@
-# 📂 Finder Context Menu Extension (Swift)
+# 📂 FabaoFileMenu - Finder Extension
 
-Um exemplo prático de como adicionar uma opção personalizada ao menu de contexto (botão direito) do Finder no macOS, superando as restrições de Sandbox.
+Uma extensão nativa para macOS que adiciona a opção **"Criar Arquivo Texto"** ao menu de contexto (botão direito) do Finder.
 
-> **Status:** Proof of Concept (PoC) funcional.
+> **Nota:** Este projeto é uma Proof of Concept (PoC) para demonstrar como superar as restrições de Sandbox do macOS e manipular arquivos diretamente via extensão do Finder.
 
-## 🚀 O que ele faz
-Adiciona uma opção **"Criar Arquivo Texto"** ao clicar com o botão direito em uma pasta no Finder.
-- Cria um arquivo `novo_arquivo.txt` instantaneamente.
-- Emite feedback sonoro (System Beep) ao concluir.
-- Serve como base para automações mais complexas (scripts, templates, etc).
+## 🚀 Funcionalidades
 
-## 🛠️ Tecnologias
-- **Swift 5**
-- **Finder Sync Extension**
-- **Xcode** (App Sandbox & Entitlements)
+- 🖱️ **Integração Nativa:** Aparece no menu de clique direito dentro das pastas.
+- 📄 **Criação Rápida:** Cria um arquivo `novo_arquivo.txt` instantaneamente.
+- 🔊 **Feedback:** Emite um som de sistema ao concluir a ação.
+- 🔓 **Bypass de Sandbox:** Utiliza *Entitlements* específicos para permitir escrita na pasta do usuário.
 
-## ⚠️ Pré-requisitos e Avisos Importantes
-Como este projeto lida com permissões de sistema e Sandbox, ele requer configuração manual antes de compilar.
+## ⚠️ Pré-requisitos (Configuração Obrigatória)
 
-### 1. Ajuste do Caminho (Hardcoded)
-Devido às restrições de segurança do macOS, o `NSHomeDirectory()` dentro de uma extensão retorna o caminho do container, não o do usuário real.
-Você **precisa** alterar o arquivo `FinderSync.swift` para o seu usuário:
+Como este projeto utiliza um caminho absoluto para driblar o Sandbox, **você precisa configurar seu usuário manualmente** antes de compilar.
+
+1. Abra o projeto no Xcode.
+2. Navegue até o arquivo: `FabaoFinderExtension` > `FinderSync.swift`.
+3. Localize o método `init()` e altere a linha do caminho para o **seu usuário**:
 
 ```swift
-// Em FinderSync.swift > override init()
+// 🔴 ALTERE AQUI: Troque "fabioalvaropereira" pelo seu nome de usuário
 let myRealHome = URL(fileURLWithPath: "/Users/SEU_USUARIO_AQUI")
