@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2078C1272F2A859700AD7FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2078C1112F2A859200AD7FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2078C1182F2A859200AD7FC6;
+			remoteInfo = FabaoFileMenu;
+		};
+		2078C1312F2A859700AD7FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2078C1112F2A859200AD7FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2078C1182F2A859200AD7FC6;
+			remoteInfo = FabaoFileMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2078C1192F2A859200AD7FC6 /* FabaoFileMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabaoFileMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2078C1262F2A859700AD7FC6 /* FabaoFileMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabaoFileMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabaoFileMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FabaoFileMenu;
+			sourceTree = "<group>";
+		};
+		2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FabaoFileMenuTests;
+			sourceTree = "<group>";
+		};
+		2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FabaoFileMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2078C1162F2A859200AD7FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C1232F2A859700AD7FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C12D2F2A859700AD7FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2078C1102F2A859200AD7FC6 = {
+			isa = PBXGroup;
+			children = (
+				2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */,
+				2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */,
+				2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */,
+				2078C11A2F2A859200AD7FC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2078C11A2F2A859200AD7FC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2078C1192F2A859200AD7FC6 /* FabaoFileMenu.app */,
+				2078C1262F2A859700AD7FC6 /* FabaoFileMenuTests.xctest */,
+				2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2078C1182F2A859200AD7FC6 /* FabaoFileMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2078C13A2F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenu" */;
+			buildPhases = (
+				2078C1152F2A859200AD7FC6 /* Sources */,
+				2078C1162F2A859200AD7FC6 /* Frameworks */,
+				2078C1172F2A859200AD7FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */,
+			);
+			name = FabaoFileMenu;
+			packageProductDependencies = (
+			);
+			productName = FabaoFileMenu;
+			productReference = 2078C1192F2A859200AD7FC6 /* FabaoFileMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2078C1252F2A859700AD7FC6 /* FabaoFileMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2078C13D2F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenuTests" */;
+			buildPhases = (
+				2078C1222F2A859700AD7FC6 /* Sources */,
+				2078C1232F2A859700AD7FC6 /* Frameworks */,
+				2078C1242F2A859700AD7FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2078C1282F2A859700AD7FC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */,
+			);
+			name = FabaoFileMenuTests;
+			packageProductDependencies = (
+			);
+			productName = FabaoFileMenuTests;
+			productReference = 2078C1262F2A859700AD7FC6 /* FabaoFileMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2078C12F2F2A859700AD7FC6 /* FabaoFileMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2078C1402F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenuUITests" */;
+			buildPhases = (
+				2078C12C2F2A859700AD7FC6 /* Sources */,
+				2078C12D2F2A859700AD7FC6 /* Frameworks */,
+				2078C12E2F2A859700AD7FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2078C1322F2A859700AD7FC6 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */,
+			);
+			name = FabaoFileMenuUITests;
+			packageProductDependencies = (
+			);
+			productName = FabaoFileMenuUITests;
+			productReference = 2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2078C1112F2A859200AD7FC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					2078C1182F2A859200AD7FC6 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					2078C1252F2A859700AD7FC6 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 2078C1182F2A859200AD7FC6;
+					};
+					2078C12F2F2A859700AD7FC6 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = 2078C1182F2A859200AD7FC6;
+					};
+				};
+			};
+			buildConfigurationList = 2078C1142F2A859200AD7FC6 /* Build configuration list for PBXProject "FabaoFileMenu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2078C1102F2A859200AD7FC6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2078C11A2F2A859200AD7FC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2078C1182F2A859200AD7FC6 /* FabaoFileMenu */,
+				2078C1252F2A859700AD7FC6 /* FabaoFileMenuTests */,
+				2078C12F2F2A859700AD7FC6 /* FabaoFileMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2078C1172F2A859200AD7FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C1242F2A859700AD7FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C12E2F2A859700AD7FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2078C1152F2A859200AD7FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C1222F2A859700AD7FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C12C2F2A859700AD7FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2078C1282F2A859700AD7FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2078C1182F2A859200AD7FC6 /* FabaoFileMenu */;
+			targetProxy = 2078C1272F2A859700AD7FC6 /* PBXContainerItemProxy */;
+		};
+		2078C1322F2A859700AD7FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2078C1182F2A859200AD7FC6 /* FabaoFileMenu */;
+			targetProxy = 2078C1312F2A859700AD7FC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2078C1382F2A859700AD7FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2078C1392F2A859700AD7FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2078C13B2F2A859700AD7FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2078C13C2F2A859700AD7FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2078C13E2F2A859700AD7FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FabaoFileMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FabaoFileMenu";
+			};
+			name = Debug;
+		};
+		2078C13F2F2A859700AD7FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FabaoFileMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FabaoFileMenu";
+			};
+			name = Release;
+		};
+		2078C1412F2A859700AD7FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FabaoFileMenu;
+			};
+			name = Debug;
+		};
+		2078C1422F2A859700AD7FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FabaoFileMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2078C1142F2A859200AD7FC6 /* Build configuration list for PBXProject "FabaoFileMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C1382F2A859700AD7FC6 /* Debug */,
+				2078C1392F2A859700AD7FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2078C13A2F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C13B2F2A859700AD7FC6 /* Debug */,
+				2078C13C2F2A859700AD7FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2078C13D2F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C13E2F2A859700AD7FC6 /* Debug */,
+				2078C13F2F2A859700AD7FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2078C1402F2A859700AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFileMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C1412F2A859700AD7FC6 /* Debug */,
+				2078C1422F2A859700AD7FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2078C1112F2A859200AD7FC6 /* Project object */;
+}
