@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2078C14E2F2A85D000AD7FC6 /* FabaoFinderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2078C1472F2A85D000AD7FC6 /* FabaoFinderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2078C1662F2A92EA00AD7FC6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2078C1652F2A92E200AD7FC6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2078C1272F2A859700AD7FC6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +26,56 @@
 			remoteGlobalIDString = 2078C1182F2A859200AD7FC6;
 			remoteInfo = FabaoFileMenu;
 		};
+		2078C14C2F2A85D000AD7FC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2078C1112F2A859200AD7FC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2078C1462F2A85D000AD7FC6;
+			remoteInfo = FabaoFinderExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2078C1532F2A85D000AD7FC6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2078C14E2F2A85D000AD7FC6 /* FabaoFinderExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2078C1192F2A859200AD7FC6 /* FabaoFileMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FabaoFileMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2078C1262F2A859700AD7FC6 /* FabaoFileMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabaoFileMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FabaoFileMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2078C1472F2A85D000AD7FC6 /* FabaoFinderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FabaoFinderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2078C1652F2A92E200AD7FC6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2078C14F2F2A85D000AD7FC6 /* Exceptions for "FabaoFinderExtension" folder in "FabaoFinderExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 2078C1462F2A85D000AD7FC6 /* FabaoFinderExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		2078C1582F2A8F4C00AD7FC6 /* Exceptions for "FabaoFinderExtension" folder in "Compile Sources" phase from "FabaoFileMenu" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 2078C1152F2A859200AD7FC6 /* Sources */;
+			membershipExceptions = (
+				FabaoFinderExtension.entitlements,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */ = {
@@ -35,14 +83,13 @@
 			path = FabaoFileMenu;
 			sourceTree = "<group>";
 		};
-		2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */ = {
+		2078C1482F2A85D000AD7FC6 /* FabaoFinderExtension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FabaoFileMenuTests;
-			sourceTree = "<group>";
-		};
-		2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FabaoFileMenuUITests;
+			exceptions = (
+				2078C1582F2A8F4C00AD7FC6 /* Exceptions for "FabaoFinderExtension" folder in "Compile Sources" phase from "FabaoFileMenu" target */,
+				2078C14F2F2A85D000AD7FC6 /* Exceptions for "FabaoFinderExtension" folder in "FabaoFinderExtension" target */,
+			);
+			path = FabaoFinderExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,15 +116,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2078C1442F2A85D000AD7FC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2078C1102F2A859200AD7FC6 = {
 			isa = PBXGroup;
 			children = (
+				2078C1652F2A92E200AD7FC6 /* README.md */,
 				2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */,
-				2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */,
-				2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */,
+				2078C1482F2A85D000AD7FC6 /* FabaoFinderExtension */,
 				2078C11A2F2A859200AD7FC6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +142,7 @@
 				2078C1192F2A859200AD7FC6 /* FabaoFileMenu.app */,
 				2078C1262F2A859700AD7FC6 /* FabaoFileMenuTests.xctest */,
 				2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */,
+				2078C1472F2A85D000AD7FC6 /* FabaoFinderExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +157,12 @@
 				2078C1152F2A859200AD7FC6 /* Sources */,
 				2078C1162F2A859200AD7FC6 /* Frameworks */,
 				2078C1172F2A859200AD7FC6 /* Resources */,
+				2078C1532F2A85D000AD7FC6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2078C14D2F2A85D000AD7FC6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				2078C11B2F2A859200AD7FC6 /* FabaoFileMenu */,
@@ -130,9 +187,6 @@
 			dependencies = (
 				2078C1282F2A859700AD7FC6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2078C1292F2A859700AD7FC6 /* FabaoFileMenuTests */,
-			);
 			name = FabaoFileMenuTests;
 			packageProductDependencies = (
 			);
@@ -153,15 +207,34 @@
 			dependencies = (
 				2078C1322F2A859700AD7FC6 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2078C1332F2A859700AD7FC6 /* FabaoFileMenuUITests */,
-			);
 			name = FabaoFileMenuUITests;
 			packageProductDependencies = (
 			);
 			productName = FabaoFileMenuUITests;
 			productReference = 2078C1302F2A859700AD7FC6 /* FabaoFileMenuUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2078C1462F2A85D000AD7FC6 /* FabaoFinderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2078C1502F2A85D000AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFinderExtension" */;
+			buildPhases = (
+				2078C1432F2A85D000AD7FC6 /* Sources */,
+				2078C1442F2A85D000AD7FC6 /* Frameworks */,
+				2078C1452F2A85D000AD7FC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2078C1482F2A85D000AD7FC6 /* FabaoFinderExtension */,
+			);
+			name = FabaoFinderExtension;
+			packageProductDependencies = (
+			);
+			productName = FabaoFinderExtension;
+			productReference = 2078C1472F2A85D000AD7FC6 /* FabaoFinderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +257,9 @@
 						CreatedOnToolsVersion = 26.2;
 						TestTargetID = 2078C1182F2A859200AD7FC6;
 					};
+					2078C1462F2A85D000AD7FC6 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 				};
 			};
 			buildConfigurationList = 2078C1142F2A859200AD7FC6 /* Build configuration list for PBXProject "FabaoFileMenu" */;
@@ -203,6 +279,7 @@
 				2078C1182F2A859200AD7FC6 /* FabaoFileMenu */,
 				2078C1252F2A859700AD7FC6 /* FabaoFileMenuTests */,
 				2078C12F2F2A859700AD7FC6 /* FabaoFileMenuUITests */,
+				2078C1462F2A85D000AD7FC6 /* FabaoFinderExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2078C1662F2A92EA00AD7FC6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +301,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2078C12E2F2A859700AD7FC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2078C1452F2A85D000AD7FC6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +338,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2078C1432F2A85D000AD7FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +357,11 @@
 			isa = PBXTargetDependency;
 			target = 2078C1182F2A859200AD7FC6 /* FabaoFileMenu */;
 			targetProxy = 2078C1312F2A859700AD7FC6 /* PBXContainerItemProxy */;
+		};
+		2078C14D2F2A85D000AD7FC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2078C1462F2A85D000AD7FC6 /* FabaoFinderExtension */;
+			targetProxy = 2078C14C2F2A85D000AD7FC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -396,8 +493,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -426,8 +533,18 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,6 +640,86 @@
 			};
 			name = Release;
 		};
+		2078C1512F2A85D000AD7FC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FabaoFinderExtension/FabaoFinderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FabaoFinderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FabaoFinderExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenu.FabaoFinderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2078C1522F2A85D000AD7FC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FabaoFinderExtension/FabaoFinderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FabaoFinderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FabaoFinderExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabioalvaro.FabaoFileMenu.FabaoFinderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -558,6 +755,15 @@
 			buildConfigurations = (
 				2078C1412F2A859700AD7FC6 /* Debug */,
 				2078C1422F2A859700AD7FC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2078C1502F2A85D000AD7FC6 /* Build configuration list for PBXNativeTarget "FabaoFinderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2078C1512F2A85D000AD7FC6 /* Debug */,
+				2078C1522F2A85D000AD7FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
